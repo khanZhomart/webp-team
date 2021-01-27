@@ -1,0 +1,211 @@
+body {
+    overflow-x: hidden;
+}
+
+.part1 {
+    z-index: 0;
+
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    align-items: center;
+
+    min-width: 100%;
+    min-height: 30%;
+    
+    background-image: url(images/mountain.png);
+
+    background-position: -80px 0px;
+
+    filter: brightness(40%);
+
+    transform: scale(1.1);
+}
+
+.part2 {
+    background-color: #f8f1f1;
+    position: relative;
+
+    left: 40px;
+
+    width: 100%;
+    height: auto;
+    top: 700px;
+
+}
+
+.boxes {
+    position: absolute;
+    bottom: 150px;
+}
+
+.grad-box {
+    position: relative;
+    top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+
+    width: 700px;
+    height: 150px;
+    background-image: linear-gradient(45deg, #8A2387, #E94057, #F27121);
+    /*background-image: linear-gradient(45deg,  #16c79a,  #487e95,  #ec4646);*/
+}
+
+.team-mem {
+    font-family: 'Lato';
+    font-weight: 900;
+    font-size: 90px;
+
+    position: relative;
+    top: 30px;
+    text-align: center;
+    bottom: 640px;
+
+    color: white;
+}
+
+.box1 {
+    position: relative;
+    width: 270px;
+    height: 270px;
+    top: 10px;
+    left: 250px;
+
+    background-color: #16c79a;
+}
+
+#name1 {
+    position: relative;
+    top: 15px;
+    left: 20px;
+    font-family: 'Lato';
+    font-weight: 900;
+    font-size: 30px;
+    color: white;
+}
+
+.azhar-pic {
+    width: 180px;
+    height: auto;
+
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.box2 {
+    position: relative;
+    width: 270px;
+    height: 270px;
+    left: 560px;
+    bottom: 290px;
+
+    background-color: #487e95;
+}
+
+#name2 {
+    position: relative;
+    top: 15px;
+    left: 20px;
+    font-family: 'Lato';
+    font-weight: 900;
+    font-size: 30px;
+    color: white;
+}
+
+.zhoma-pic {
+    width: 145px;
+    height: auto;
+
+    position: absolute;
+    right: 15px;
+    bottom: 0;
+
+    filter: brightness(1.15);
+}
+
+.box3 {
+    position: relative;
+    width: 270px;
+    height: 270px;
+    left: 870px;
+    bottom: 590px;
+
+    background-color: #ec4646;
+}
+
+#name3 {
+    position: relative;
+    top: 15px;
+    left: 20px;
+    font-family: 'Lato';
+    font-weight: 900;
+    font-size: 30px;
+    color: white;
+}
+
+.assyl-pic {
+    width: 160px;
+    height: auto;
+
+    position: absolute;
+    right: 0;
+    bottom: 0;
+
+    filter: brightness(1.3);
+}
+
+.greeting {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    text-align: center;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    flex-direction: column;
+
+    margin: auto;
+}
+
+.hello {
+    text-align: center;
+
+    color: white;
+
+    font-family: 'Lato';
+    font-weight: 900;
+    font-size: 200px;
+}
+
+.hello2 {
+    text-align: center;
+
+    color: white;
+
+    position: relative;
+    bottom: 100px;
+
+    font-family: 'Lato';
+    font-weight: 400;
+    font-size: 35px;
+}
+
+.subtitle {
+    color: white;
+
+    position: relative;
+    bottom: 190px;
+    left: 200px;
+
+    font-family: 'Yellowtail';
+    font-size: 40px;
+}
